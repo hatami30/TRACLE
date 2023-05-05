@@ -117,10 +117,10 @@ fetch(API_URL)
   class="group flex justify-between rounded-xl bg-white p-4 shadow-xl transition-shadow hover:shadow-lg sm:p-6 lg:p-8"
 >
   <div>
-    <h3 class="text-3xl font-bold text-green-600 sm:text-5xl">${cityCount[city]}</h3>
+    <h3 class="text-3xl font-bold text-green-600 sm:text-3xl">${cityCount[city]} Data</h3>
 
     <div class="mt-4 border-t-2 border-gray-100 pt-4">
-      <p class="text-sm font-medium uppercase text-gray-500">${city}</p>
+      <p class="text-sm font-large uppercase text-gray-500">${city}</p>
     </div>
   </div>
 
@@ -129,20 +129,6 @@ fetch(API_URL)
   >
     <p class="font-medium sm:text-lg"></p>
 
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      class="h-6 w-6 transition-all group-hover:ms-3 rtl:rotate-180"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M17 8l4 4m0 0l-4 4m4-4H3"
-      />
-    </svg>
   </div>
 </a>
     `;
