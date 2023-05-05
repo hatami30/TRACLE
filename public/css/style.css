@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 /* Set font Montserrat untuk seluruh halaman */
 * {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
+}
+
+.bg-green {
+  background-color: #779b58;
 }
 
 .origin-0 {
