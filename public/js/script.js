@@ -3,10 +3,10 @@ const API_URL = "https://645130aee1f6f1bb22aaa3e5.mockapi.io/api/v1/petugas";
 
 // REGISTER FUNCTIONS
 function register() {
-    var username = document.getElementById("username").value;
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
-    var confirm_password = document.getElementById("confirm_password").value;
+    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let confirm_password = document.getElementById("confirm_password").value;
     if (
         username == "" ||
         email == "" ||
@@ -29,10 +29,10 @@ function register() {
 
 // LOGIN FUNCTIONS
 function login() {
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
-    var stored_email = localStorage.getItem("email");
-    var stored_password = localStorage.getItem("password");
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let stored_email = localStorage.getItem("email");
+    let stored_password = localStorage.getItem("password");
     if (email == stored_email && password == stored_password) {
         alert("Login berhasil!");
         // Redirect the user to the main page
